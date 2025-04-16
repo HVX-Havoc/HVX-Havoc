@@ -1,7 +1,5 @@
 # 👋 Hello, I'm HVX-Havoc!
 
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=F7F7F7&width=435&lines=Roblox+Script+Developer;Learning+Lua;Game+Development+Enthusiast)](https://git.io/typing-svg)
-
 <img align="right" alt="Coding" width="400" src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif">
 
 ![Profile Visitors](https://komarev.com/ghpvc/?username=HVX-Havoc&color=blueviolet&style=flat-square&label=Profile+Views)
