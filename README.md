@@ -2,9 +2,9 @@
 
 <table>
   <tr>
-    <td width="100">
+    <td width="200">
       <a href="https://music.youtube.com/watch?v=85bRUQOf8JY">
-        <img src="https://i.ytimg.com/vi/85bRUQOf8JY/maxresdefault.jpg" width="100" height="100">
+        <img src="https://i.ytimg.com/vi/85bRUQOf8JY/maxresdefault.jpg" width="200" height="100">
       </a>
     </td>
     <td>
