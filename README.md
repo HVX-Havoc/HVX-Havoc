@@ -1,4 +1,39 @@
+## 👀 Profile Views
+![Profile Visitors](https://komarev.com/ghpvc/?username=HVX-Havoc&color=blueviolet&style=flat-square&label=Profile+Views)
+```
+
+### 2. Repository-specific Visitor Counters
+
+You can add visitor counters to individual repositories by adding this to each repository's README:
+
+```markdown
+![Visitors](https://visitor-badge.glitch.me/badge?page_id=HVX-Havoc.repo-name)
+```
+
+Replace "repo-name" with the actual repository name.
+
+### 3. Total Repository Views
+
+Unfortunately, GitHub doesn't provide a direct way to show the total views across all repositories combined. However, you could:
+
+1. Add individual visitor badges to each repository
+2. Use GitHub's built-in traffic insights for each repository (visible only to you as the repository owner)
+
+### 4. Custom GitHub Action for Aggregated Stats
+
+For a more advanced solution, you could create a custom GitHub Action that:
+1. Uses the GitHub API to fetch traffic data from all your repositories
+2. Aggregates the data
+3. Updates your profile README with the total
+
+This would require some custom coding and setting up GitHub Actions with the appropriate permissions.
+
+### Here's a complete example with profile views:
+
+```markdown:README.md
 # 👋 Hello, I'm HVX-Havoc!
+
+![Profile Visitors](https://komarev.com/ghpvc/?username=HVX-Havoc&color=blueviolet&style=flat-square&label=Profile+Views)
 
 ## About Me
 - 🎮 Passionate Roblox script developer
