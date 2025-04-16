@@ -1,34 +1,98 @@
-## 🎵 What I'm Listening To
+# 👋 Hello, I'm HVX-Havoc!
 
-<table>
-  <tr>
-    <td width="200">
-      <a href="https://music.youtube.com/watch?v=85bRUQOf8JY">
-        <img src="https://i.ytimg.com/vi/85bRUQOf8JY/maxresdefault.jpg" width="200" height="100">
-      </a>
-    </td>
-    <td>
-      <b><a href="https://music.youtube.com/watch?v=85bRUQOf8JY">Lil Uzi Vert - Just Wanna Rock</a></b><br>
-      <i>Currently vibing to this while coding</i><br>
-      <img src="https://img.shields.io/badge/YouTube_Music-FF0000?style=flat-square&logo=youtube-music&logoColor=white">
-    </td>
-  </tr>
-</table>
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=F7F7F7&width=435&lines=Roblox+Script+Developer;Learning+Lua;Game+Development+Enthusiast)](https://git.io/typing-svg)
+
+<img align="right" alt="Coding" width="400" src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif">
+
+![Profile Visitors](https://komarev.com/ghpvc/?username=HVX-Havoc&color=blueviolet&style=flat-square&label=Profile+Views)
+
+## 🧑‍💻 About Me
+- 🎮 Passionate Roblox script developer
+- 🌱 Currently learning Lua programming
+- 👨‍💻 Started my coding journey at age 14
+- 🚀 Always looking to improve my skills
+
+## 🛠️ Skills
+![Lua](https://img.shields.io/badge/Lua-2C2D72?style=for-the-badge&logo=lua&logoColor=white)
+![Roblox](https://img.shields.io/badge/Roblox-00A2FF?style=for-the-badge&logo=roblox&logoColor=white)
+![Game Development](https://img.shields.io/badge/Game_Development-E60012?style=for-the-badge&logo=unity&logoColor=white)
+![YouTube Music](https://img.shields.io/badge/YouTube_Music-FF0000?style=for-the-badge&logo=youtube-music&logoColor=white)
+
+## 📊 GitHub Stats
+
+<p align="center">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=HVX-Havoc&theme=radical" />
+</p>
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=HVX-Havoc&show_icons=true&theme=radical&count_private=true" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=HVX-Havoc&layout=compact&theme=radical" />
+</p>
+
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=HVX-Havoc&theme=radical" />
+</p>
+
+## 🏆 GitHub Trophies
+<p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=HVX-Havoc&theme=radical&row=1&column=6" />
+</p>
+
+## 🎵 My Music
+
+<img src="https://i.ytimg.com/vi/85bRUQOf8JY/maxresdefault.jpg" width="100%" height="200" style="object-fit: cover; border-radius: 10px;">
+
+<p align="center">
+  <a href="https://music.youtube.com/watch?v=85bRUQOf8JY" target="_blank">
+    <img src="https://img.shields.io/badge/Falta_Amor-Sebastián_Yatra_&_Ricky_Martin-FF0000?style=for-the-badge&logo=youtube-music&logoColor=white&labelColor=101010" alt="Falta Amor - Sebastián Yatra & Ricky Martin" width="80%">
+  </a>
+</p>
+
+## 💻 Code Sample
+```lua
+-- A simple Roblox script example
+local function createParticleEffect(part)
+    local particleEmitter = Instance.new("ParticleEmitter")
+    
+    particleEmitter.Texture = "rbxassetid://6880496307"
+    particleEmitter.Size = NumberSequence.new({
+        NumberSequenceKeypoint.new(0, 0.5),
+        NumberSequenceKeypoint.new(1, 0)
+    })
+    particleEmitter.Transparency = NumberSequence.new({
+        NumberSequenceKeypoint.new(0, 0),
+        NumberSequenceKeypoint.new(1, 1)
+    })
+    particleEmitter.Speed = NumberRange.new(2, 5)
+    particleEmitter.Lifetime = NumberRange.new(1, 2)
+    particleEmitter.Rate = 50
+    particleEmitter.SpreadAngle = Vector2.new(0, 180)
+    particleEmitter.Parent = part
+    
+    return particleEmitter
+end
+
+-- Usage
+local part = workspace.EffectPart
+local effect = createParticleEffect(part)
 ```
 
-This creates a nice display with:
-1. The track thumbnail
-2. The track name as a clickable link
-3. A short description
-4. The YouTube Music badge
+## 🚀 Current Projects
+- 🎮 Developing custom Roblox game mechanics
+- 📚 Building a library of reusable Lua scripts
+- 🔍 Exploring advanced Roblox Studio features
 
-If you want to feature multiple tracks or a playlist instead, you could modify this approach:
+## 🌐 Connect With Me
+<p align="left">
+  <a href="https://discord.com" target="_blank">
+    <img src="https://img.shields.io/badge/Discord-.Masterboy123.-7289DA?style=for-the-badge&logo=discord&logoColor=white" alt="Discord"/>
+  </a>
+</p>
 
-```markdown:README.md
-## 🎵 My Coding Playlist
+---
 
-<a href="https://music.youtube.com/playlist?list=YOUR_PLAYLIST_ID">
-  <img src="https://img.shields.io/badge/YouTube_Music-My_Coding_Playlist-FF0000?style=for-the-badge&logo=youtube-music&logoColor=white">
-</a>
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&section=footer" />
+</p>
 
-Featured track: <a href="https://music.youtube.com/watch?v=85bRUQOf8JY">Lil Uzi Vert - Just Wanna Rock</a>
+⭐ *"Coding is not just about making things work, it's about making things better."* ⭐
